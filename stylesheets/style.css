@@ -1,0 +1,71 @@
+    h1 {
+      text-align: center;
+      font-family: 'Poiret One', cursive;
+      font-size: 80px;
+      color: black;
+      margin: 20px 0 15px 0;
+    }
+    h2 {
+      font-family: 'Poiret One', cursive;
+      color: black;
+      font-size: 18px;
+      margin: 15px 50px 20px 50px;
+      text-align: center;
+    }
+    img {
+      padding: 10px;
+      margin: 0 0 15px 0;
+    }
+    article {
+      background: white;
+      max-width: 500px;
+      padding: 10px;
+      margin: 0 auto;
+      opacity:.6;
+    }
+    p {
+      text-align: justify;
+      font-family: candara;
+      color: black;
+      margin: 0 auto;
+      padding: 10px;
+    }
+    body {
+      text-align: center;
+      background: url("http://i.imgur.com/PdT1qad.jpg?1");
+      background-size: cover;
+    }
+    li {
+      max-width: 500px;
+      text-align: center;
+      background: white;
+      opacity: 0.5;
+      margin: 0 0 30px 0;
+      padding: 10px;
+      display: inline;
+      font-family: candara;
+    }
+@media (max-width: 500px) {
+  h1 {
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  article {
+    margin: 30px 20px 0px 20px;
+    padding: 10px;
+  }
+  img {
+    margin: 0 0 5px 0;
+    }
+  p {
+    font-size: 12px;
+    line-height: 24px;
+    text-align: justify;
+    padding: 5px;
+  }
+}
